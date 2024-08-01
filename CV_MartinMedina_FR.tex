@@ -1,0 +1,283 @@
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+
+\begin{center}
+    \textbf{\Huge \scshape Martin Medina} \\ \vspace{1pt}
+    \small +1 (438)835-6948 $|$ \href{mailto:medinammartin3@gmail.com}{\underline{medinammartin3@gmail.com}} $|$
+    \href{https://github.com/medinammartin3}{\underline{github.com/medinammartin3}} $|$ 
+    \href{https://medinammartin3.github.io/}{\underline{medinammartin3.github.io}}
+\end{center}
+
+%-----------EDUCATION-----------
+\section{Éducation}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Université de Montréal}{Montréal, Canada}
+      {Baccalauréat en Informatique | \footnotesize{GPA : 3.37 (B+)}}{Sep. 2022 -- Avr. 2025 (prévu)}
+    \resumeSubheading
+      {Lycée Français Louis Pasteur}{Bogota, Colombie}
+      {Études secondaires | Prix d'excellence}{2015 -- 2018}
+  \resumeSubHeadingListEnd
+
+
+%-----------EXPERIENCE-----------
+\section{Expérience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Auxiliaire d'enseignement}{Septembre 2023 -- Avril 2024}
+      {Université de Montréal}{Montréal, Canada}
+      \resumeItemListStart
+        \resumeItem{Cours : 
+            \resumeItemListStart 
+                \resumeItem{IFT 1005 - Design et développement Web $|$ (\textit{Sep. 2023 -- Déc. 2023})}
+                \resumeItem{IFT 1144 - Introduction à la programmation internet $|$ (\textit{Sep. 2023 -- Avr. 2024})}
+                \resumeItem{IFT 1990 - Informatique pour sciences sociales $|$ (\textit{Jan. 2024 -- Avr. 2024})}
+            \resumeItemListEnd
+        }
+        \hspace{0.5cm}
+        \resumeItem{Répondre aux questions des étudiants, corriger les travaux pratiques, préparer d'exercices pratiques, et compléter les explications des professeurs avec des cas d'utilisation.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Animateur -- École d'été}{Juillet 2024}
+      {Université de Montréal}{Montréal, Canada}
+      \resumeItemListStart
+        \resumeItem{Planifier, organiser et diriger des activités axées sur le plaisir et le travail d'équipe.}
+        \resumeItem{Assurer la sécurité de l'environnement de l'école d'été et réagir en cas d'urgence.}
+        \resumeItem{Favoriser un sentiment d'inclusion et d'appartenance parmi les participants.}
+        \resumeItemListEnd
+
+    \resumeSubheading
+      {Chargé d'atelier d'informatique -- École d'été}{Juillet 2024}
+      {Université de Montréal}{Montréal, Canada}
+      \resumeItemListStart
+        \resumeItem{Introduire les participants à l'informatique en leur enseignant les bases de la programmation et des outils numériques.}
+        \resumeItem{Réalisation du "Jeu du pendu" en Python.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Chef d'équipe}{Septembre 2022 -- Mai 2024}
+      {Tim Hortons}{Montréal, Canada}
+      \resumeItemListStart
+        \resumeItem{Service à la clientèle, formation du personnel, contrôle de la qualité, et gestion des stocks et des dépôts bancaires.}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+
+%-----------PROGRAMMING SKILLS-----------
+\section{Compétences en programmation}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages}{: Python, HTML/CSS, JavaScript, Java, SQL (PostgreSQL), C/C++, Haskell, LaTeX} \\
+     \textbf{Librairies et Frameworks}{: Django, Numpy, JQuery, AJAX, JUnit, Maven, JavaFX, Jakarta Persistence API} \\
+     \textbf{Outils}{: Git, VS Code, PyCharm, IntelliJ, CLion} \\
+     \textbf{Autres}{: Structures de données, Algorithmes, Bases de données, UML, Bash}
+    }}
+ \end{itemize}
+
+
+%-----------PROJECTS-----------
+\section{Projets}
+    \resumeSubHeadingListStart
+        \resumeProjectHeading
+          {\textbf{Application Web de sondages} $|$ \emph{Python, Django, HTML/CSS, JavaScript}}{En cours de développement}
+          \resumeItemListStart
+            \resumeItem{Application web de sondages en ligne développée avec Django qui permet aux utilisateurs de créer des sondages, voter sur des sondages existants, visualiser les résultats des sondages et de partager ses sondages.}
+            \resumeItem{\textbf{Dépôt GitHub}: \href{https://github.com/medinammartin3/Sondi}{\underline{github.com/medinammartin3/Sondi}}}
+          \resumeItemListEnd
+
+          \resumeProjectHeading
+          {\textbf{Page web personnelle} $|$ \emph{HTML/CSS, JavaScript}}{}
+          \resumeItemListStart
+            \resumeItem{Site web de mon CV et mon Portfolio}
+            \resumeItem{\textbf{Lien vers la page Web}: \href{https://medinammartin3.github.io}{\underline{https://medinammartin3.github.io}}}
+            \resumeItem{\textbf{Dépôt GitHub}: \href{https://github.com/medinammartin3/medinammartin3.github.io}{\underline{github.com/medinammartin3/medinammartin3.github.io}}}
+          \resumeItemListEnd
+
+          \resumeProjectHeading
+          {\textbf{Page web de commerce en ligne} $|$ \emph{HTML/CSS, JavaScript, JQuery, AJAX}}{Automne 2022}
+          \resumeItemListStart
+            \resumeItem{Implémentation de la partie front-end d‘un site web intéractif de commerce en ligne (de type Amazon).}
+            \resumeItem{\textbf{Lien vers la page Web}: \href{https://medinammartin3.github.io/OnlineShop/index.html}{\underline{https://medinammartin3.github.io/OnlineShop/index.html}}}
+            \resumeItem{\textbf{Dépôt GitHub}: \href{https://github.com/medinammartin3/TP3_IFT1005}{\underline{https://github.com/medinammartin3/TP3\_IFT1005}}}
+          \resumeItemListEnd
+
+          \resumeProjectHeading
+          {\textbf{Unishop} $|$ \emph{Java, JUnit, Maven}}{Automne 2023}
+          \resumeItemListStart
+            \resumeItem{Programme de simulation de boutique en ligne avec interface en ligne de commande. Implémente une base de données avec fichiers et contient de nombreuses fonctionnalités pour les acheteurs et vendeurs.}
+            \resumeItem{\textbf{Dépôt GitHub}: \href{https://github.com/medinammartin3/Projet_IFT2255}{\underline{github.com/medinammartin3/Projet\_IFT2255}}}
+          \resumeItemListEnd
+
+          \resumeProjectHeading
+          {\textbf{Interpréteur de language fonctionnel} $|$ \emph{Haskell}}{Automne 2023}
+          \resumeItemListStart
+            \resumeItem{Implémentation d‘une partie d’un interpréteur d’un langage de programmation fonctionnel similaire à Lisp. Contient : analyse lexicale et syntaxique, compilation, évaluation des expressions par interprétation, vérification de types et sucre syntaxique.}
+            \resumeItem{\textbf{Dépôt GitHub}: \href{https://github.com/medinammartin3/TP2_IFT2035}{\underline{github.com/medinammartin3/TP2\_IFT2035}}}
+          \resumeItemListEnd
+
+          \resumeProjectHeading
+          {\textbf{Programme de traitement du langage naturel} $|$ \emph{Python, StanfordNLP}}{Automne 2023}
+          \resumeItemListStart
+            \resumeItem{Implémentation de deux types de Map afin de créer un programme de traitement du langage naturel qui permet de trouver le document le plus pertinent pour une recherche de l‘utilisateur. Le programme supporte les fautes d‘orthographe et suggère le mot suivant le plus probable après un mot donné par l‘utilisateur.}
+            \resumeItem{\textbf{Dépôt GitHub}: \href{https://github.com/medinammartin3/TP2_IFT2015}{\underline{github.com/medinammartin3/TP2\_IFT2015}}}
+          \resumeItemListEnd
+
+          \resumeProjectHeading
+          {\textbf{Application client-serveur en Java} $|$ \emph{Java, JavaFX, Maven}}{Hiver 2023}
+          \resumeItemListStart
+            \resumeItem{Application client-serveur qui permet aux utilisateur (étudiants) de s’inscrire aux cours avec une interface graphique implémentée avec JavaFX.}
+            \resumeItem{\textbf{Dépôt GitHub}: \href{https://github.com/medinammartin3/Inscriptions_UdeM}{\underline{github.com/medinammartin3/Inscriptions\_UdeM}}}
+            \resumeItem{\textbf{Vidéo de démonstration}: \href{https://youtu.be/T4D-IG02jn4?si=T_W0DgzJoF3X0ABN}{\underline{https://youtu.be/T4D-IG02jn4?si=T\_W0DgzJoF3X0ABN}}}
+          \resumeItemListEnd
+
+          \resumeProjectHeading
+          {\textbf{Résolution de grilles de mots cachés} $|$ \emph{Java}}{Automne 2023}
+          \resumeItemListStart
+            \resumeItem{Programme orienté objet pour résoudre une grille de mots cachés. Le programme trouve toutes les possibilités de mots de la liste de mots fournie qui peuvent être formés en traversant des caractères adjacents sur une grille donnée.}
+            \resumeItem{\textbf{Dépôt GitHub}: \href{https://github.com/medinammartin3/Devoir1_IFT2015}{\underline{github.com/medinammartin3/Devoir1\_IFT2015}}}
+          \resumeItemListEnd
+      
+    \resumeSubHeadingListEnd
+
+
+
+ %-----------LANGUAGES-----------
+\section{Langues}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Espagnol}{: 100\% (parlé et écrit)} \\
+     \textbf{Français}{: 100\% (parlé et écrit)} \\
+     \textbf{Anglais}{: 80\% (parlé et écrit)} \\
+     \textbf{Portugais}{: 60\% (parlé et écrit)}
+    }}
+ \end{itemize}
+
+
+%-----------REFERENCES-----------
+\section{Références}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+     \resumeSubheading
+         {Souhila Benbetka}{}{Chargée de cours -- Université de Montréal}{}
+         \resumeItemListStart
+             \resumeItem{\textbf{Courriel}: \href{mailto:souhila.benbetka@umontreal.ca}{souhila.benbetka@umontreal.ca}}
+         \resumeItemListEnd
+         
+     \resumeSubheading
+         {Abdelhakim Senhaji Hafid}{}{Chargé de cours -- Université de Montréal}{}
+         \resumeItemListStart
+             \resumeItem{\textbf{Courriel}: \href{mailto:ahafid@iro.umontreal.ca}{ahafid@iro.umontreal.ca}}
+         \resumeItemListEnd
+         
+     \resumeSubheading
+         {Nesrine Mohamed Said}{}{Coordinatrice de l'école d'été -- Université de Montréal}{}
+         \resumeItemListStart
+             \resumeItem{\textbf{Courriel}: \href{mailto:nesrine.mohamed.said@umontreal.ca}{nesrine.mohamed.said@umontreal.ca}}
+         \resumeItemListEnd
+ \end{itemize}
+
+
+
+%-------------------------------------------
+\end{document}
